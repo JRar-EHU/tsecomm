@@ -1,0 +1,18 @@
+.navBar--hr {
+    border-top: 1px solid #0000001A;
+    margin-top: 0;
+}
+
+.breadcrumb.navBar--text ul li a {
+    font-family: 'Rubik', serif;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #00000099;
+    text-decoration: none;
+}
+
+.breadcrumb.navBar--text ul li.is-active a {
+    color: #000000;
+}
+

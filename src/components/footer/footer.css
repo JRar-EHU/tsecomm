@@ -1,0 +1,103 @@
+.footer {
+    background-color: #F0EEED;
+    margin-top: 5rem;
+}
+
+.footer--subscribe {
+margin-top: -7rem;
+}
+
+.footer--subscribe--button {
+    width: 90%;
+    height: 40%;
+}
+
+.footer--text-subscribe__title {
+    font-family: Poppins, serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    letter-spacing: 0;
+}
+
+.footer--text-subscribe-button__email {
+    font-family: Rubik, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color:#00000066
+}
+
+.footer--text-subscribe-button__subscribe {
+    font-family: Rubik, serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color:black;
+
+}
+
+.footer--text-main__title {
+    font-family: Poppins, serif;
+    font-weight: 700;
+    font-size: 33.45px;
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    color:black;
+}
+
+.footer--text-main__description {
+    font-family: Rubik, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0;
+    color: #00000099;
+}
+
+.footer--text-categories__title {
+    font-family: Rubik, serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color:black;
+}
+
+.footer--text-categories__item {
+    font-family: Rubik, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0;
+    color:#00000099;
+
+}
+
+.footer--text-legal {
+    font-family: Rubik, serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: left;
+    color: #00000099;
+}
+
+.footer--hr {
+    border-top: 1px solid #0000001A;
+}
+
+@media (max-width: 768px) {
+    .footer--legal {
+        flex-direction: column;
+    }
+    .footer--text-legal {
+        text-align: center;
+    }
+}

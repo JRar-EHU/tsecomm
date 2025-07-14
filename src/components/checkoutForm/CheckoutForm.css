@@ -1,0 +1,38 @@
+hr.checkout-form {
+    border: 1px solid #0000001A;
+}
+
+.checkout-form--input {
+    background-color: #F0F0F0;
+    border : none;
+}
+
+.checkout-form--input__invalid {
+    border: 1px solid red;
+}
+
+.checkout-form.box {
+    border: 1px solid #0000001A;
+}
+
+.checkout-form--text__title{
+    font-family: Poppins, serif;
+    font-weight: 700;
+    font-size: 40px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    color:black
+}
+
+.checkout-form--text__fields {
+    font-family: Rubik, serif;
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0;
+    color:#00000066;
+
+}

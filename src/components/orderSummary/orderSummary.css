@@ -1,0 +1,83 @@
+.orderSummary {
+    border: 1px solid #0000001A;
+    background-color: transparent;
+}
+
+.hr {
+    border-top: 1px solid #0000001A;
+}
+
+.orderSummary--text__title {
+    font-family: Rubik, serif;
+    font-weight: 700;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    color:black;
+}
+
+.orderSummary--text__button {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0;
+
+}
+
+.orderSummary--button {
+    height: 3rem;
+}
+
+.orderSummary--text__subtitle {
+    font-family: Rubik, serif;
+    font-weight: 400;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    color: #00000099;
+}
+
+.orderSummary--text__total {
+    font-family: Rubik, serif;
+    font-weight: 400;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    color:black;
+}
+
+.orderSummary--text__price {
+    font-family: Rubik, serif;
+    font-weight: 700;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: right;
+    vertical-align: middle;
+    color:black;
+}
+
+.orderSummary--text__price--total {
+    font-family: Rubik, serif;
+    font-weight: 700;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: right;
+    vertical-align: middle;
+    color: black;
+}
+
+.orderSummary--text__price.discount {
+    color: red;
+}

@@ -1,0 +1,53 @@
+.filterMenu--text__title {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+}
+
+.filterMenu--text__sort {
+    font-family: Rubik, serif;
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: rgba(0, 0, 0, 0.6)
+}
+
+.filterMenu--sort__is-active {
+    font-weight: 700;
+}
+
+.filterMenu--BgModal {
+    background-color: white;
+}
+
+.filterMenu--text__button {
+    font-family: Rubik, serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+
+}
+
+.filterMenu--button {
+    height: 3rem;
+}
+
+.filterMenu--panel {
+    border: 1px solid #0000001A;
+    padding-bottom: 9rem;
+}
+
+.filterMenu--modal__bottom {
+    position: absolute;
+    bottom: 0;
+}
+
+.filterMenu--modal__bg {
+    background-color: #00000033;
+}

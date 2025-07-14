@@ -1,0 +1,111 @@
+.box.productCard {
+    background: #F0EEED;
+    padding: 0;
+}
+
+.productCard--img{
+    object-fit: contain;
+}
+
+.productCard--img__is-active {
+    border: 1px solid black;
+}
+
+.productCard--thumbnailBox{
+    margin-left: -4rem;
+}
+
+.productBar--hr {
+    height: 1px;
+    border: none;
+    background-color: #0000001A;
+}
+
+.productCard--text__title {
+    font-family: Poppins, serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    color:black;
+}
+
+.productCard--text .product--text__price {
+    font-size: 32px;
+}
+
+.productCard--text .product--text__price-full {
+    font-size: 32px;
+}
+
+.productCard--text .product--text__price-discount {
+    font-size: 16px;
+}
+
+.productCard--text__description {
+    font-family: Rubik, serif;
+    font-weight: 400;
+    font-size: 16px;
+    leading-trim: Cap height;
+    line-height: 22px;
+    letter-spacing: 0;
+    color: #00000099
+}
+
+.productCard--text__info {
+    font-family: Poppins, serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    color:black;
+}
+
+.productCard--text__button {
+    font-family: Rubik, serif;
+    font-weight: 500;
+    font-size: 16px;
+    /*line-height: 100%;*/
+    letter-spacing: 0;
+
+}
+
+.productCard--input {
+    width: 3rem;
+}
+
+.has-addons > :is(button, input) {
+    background-color: #F0EEED ;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .productCard--thumbnail-container__mobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+    .productCard--img-container__mobile {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    .productCard--img__thumbnail-container {
+        margin-bottom: 0 !important;
+    }
+    .productCard--text__title {
+        font-size: 24px
+    }
+    .productCard--text .product--text__price {
+        font-size: 24px;
+    }
+    .productCard--text .product--text__price-full {
+        font-size: 24px;
+    }
+    .productCard--text .product--text__price-discount {
+        font-size: 14px;
+    }
+}

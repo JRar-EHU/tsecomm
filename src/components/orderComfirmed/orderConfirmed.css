@@ -1,0 +1,23 @@
+.orderConfirmed--text__title {
+    font-family: Poppins, serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    color:black;
+}
+
+.orderConfirmed--text__subtitle {
+    font-family: Rubik, serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0;
+    color: #00000099;
+}
+
+.orderConfirmed--box {
+    border: 1px solid #0000001A;
+    display: inline-block;
+}

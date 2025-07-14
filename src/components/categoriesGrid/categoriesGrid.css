@@ -1,0 +1,37 @@
+.categories {
+    margin-bottom: 6rem;
+}
+.categories--text__title {
+    font-family: Poppins, serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: center;
+    color:black;
+}
+.categories--text__elements {
+    font-family: Rubik, serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color:black;
+    word-break:break-all;
+}
+
+.categories--aspect-wrapper {
+    aspect-ratio: 1 / 1;
+
+}
+.categories--item {
+    background-color: #F0EEED;
+    height: 100%;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .categories--text__elements {
+        font-size: 32px;
+    }
+}

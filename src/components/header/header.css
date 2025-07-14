@@ -1,0 +1,14 @@
+.header-text{
+    font-family: Poppins, serif;
+    font-weight: 700;
+    font-size: 32px;
+    leading-trim: Cap height;
+    line-height: 100%;
+    letter-spacing: 0;
+    vertical-align: middle;
+    color:black;
+}
+
+a {
+    color:black;
+}
